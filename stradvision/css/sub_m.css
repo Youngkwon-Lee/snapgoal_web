@@ -1,0 +1,823 @@
+.sub-top {
+    padding: 81px 3.90625% 80px;
+  }
+  .sub-top.K04,
+  .sub-top.K05,
+  .sub-top.K07,
+  .sub-top.K08 {
+    padding: 81px 3.90625% 0;
+  }
+  .sub-top hgroup h2 {
+    font-size: 80px;
+    white-space: nowrap;
+  }
+  .sub-top.K08 hgroup h2 {
+    white-space: pre-wrap;
+  }
+  .about-top__desc {
+    align-self: flex-start;
+    width: 100%;
+  }
+  .about-leadership ul {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 630px;
+    margin: 80px auto 0;
+  }
+  .technology-overview__nav {
+    display: none;
+  }
+  .technology-overview__scroll ul {
+    width: 100%;
+  }
+  .product-sec section {
+    flex-direction: column;
+  }
+  .product-sec section article {
+    width: 100%;
+  }
+  .product-sec section h3 {
+    margin-bottom: 40px;
+  }
+  .sub-tit01 {
+    font-size: 46px;
+  }
+  .contact-info .inner {
+    grid-template-columns: 1fr;
+  }
+  .contact-info .inner b {
+    margin-bottom: 95px;
+  }
+  
+  @media all and (max-width: 1024px) {
+    .about-investors__amounts ul {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .product-features li {
+      height: auto;
+      aspect-ratio: 2.27 / 1;
+    }
+    .product-features {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .product-link {
+      grid-template-columns: 1fr;
+    }
+    .news-view .main-news__list .slick-list {
+      margin-left: 3.90625vw;
+    }
+    .news-view .main-news__list .item {
+      width: 80.56vw;
+    }
+    .careers-looking ul {
+      grid-gap: 20px;
+    }
+    .careers-looking ul li b {
+      font-size: 26px;
+    }
+    .careers-looking ul li p {
+      margin-top: 40px;
+    }
+    .careers-looking ul li {
+      padding: 40px 30px;
+    }
+    .careers-benefits ul {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .sub-page .content.career section {
+      flex-direction: column;
+    }
+    .career-filters {
+      padding-bottom: 280px;
+    }
+    .career-filters__apply {
+      display: flex;
+      position: fixed;
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%);
+      width: 100%;
+      height: 120px;
+      background-color: #fff;
+      z-index: 2;
+      align-items: center;
+      justify-content: center;
+    }
+    .career-filters__apply P {
+      display: flex;
+      width: 92.18vw;
+      height: 80px;
+      border-radius: 15px;
+      color: #fff;
+      font-family: var(--jost);
+      background-color: var(--purple);
+      font-size: 20px;
+      align-items: center;
+      justify-content: center;
+      font-weight: 600;
+    }
+    .privacy-select {
+      justify-content: flex-start;
+      margin-top: 50px;
+    }
+  }
+  
+  @media all and (max-width: 768px) {
+    .sub-top.K0101 .sub-top__bg {
+      background-image: url('/image/sub/sv01_m.jpg');
+    }
+  
+    .sub-top.K0201 .sub-top__bg {
+      background-image: url('/image/sub/sv02_m.jpg');
+    }
+  
+    .sub-top.K0301 .sub-top__bg {
+      background-image: url('/image/sub/sv0301_m.jpg');
+    }
+  
+    .sub-top.K0302 .sub-top__bg {
+      background-image: url('/image/sub/sv0302_m.jpg');
+    }
+  
+    .sub-top.K0303 .sub-top__bg {
+      background-image: url('/image/sub/sv0303_m.jpg');
+    }
+  
+    .sub-top.K04 .sub-top__bg02 {
+      background-image: url('/image/sub/sv04_m.jpg');
+    }
+  
+    .sub-top.K05 .sub-top__bg02 {
+      background-image: url('/image/sub/sv05_m.jpg');
+    }
+  
+    .sub-top.K07 .sub-top__bg02 {
+      background-image: url('/image/sub/sv07_m.jpg');
+    }
+  
+    .sub-top.K0702 .sub-top__bg02 {
+      background-image: url('/image/sub/sv0702_m.jpg');
+    }
+    .sub-top.K08 .sub-top__bg02 {
+      background-image: url('/image/sub/sv08_m.jpg');
+    }
+    .sub-top {
+      padding: 11.25vw 3.90625% 11.11vw;
+    }
+    .sub-top.K04,
+    .sub-top.K05,
+    .sub-top.K07,
+    .sub-top.K08 {
+      padding: 13.89vw 3.90625% 0;
+      margin-bottom: 16.67vw;
+    }
+    .sub-top.K04 .sub-top__bg02,
+    .sub-top.K05 .sub-top__bg02,
+    .sub-top.K07 .sub-top__bg02,
+    .sub-top.K08 .sub-top__bg02 {
+      background-size: 110vmax;
+      height: auto;
+      aspect-ratio: 1 / 1.6;
+    }
+    @-webkit-keyframes svBg02 {
+      to {
+        background-size: 100vmax;
+      }
+    }
+  
+    @keyframes svBg02 {
+      to {
+        background-size: 100vmax;
+      }
+    }
+    .sub-top hgroup {
+      top: calc(50% - (100vh - 61.11vw) / 2 + 9vw);
+    }
+    .sub-top hgroup h2 {
+      font-size: 11.11vw;
+    }
+    .sub-top.K08 hgroup {
+      width: 100%;
+    }
+    .sub-top.K08 hgroup h2 {
+      font-size: 9.722vw;
+    }
+    .sub-top__frame {
+      height: calc(100vh - 61.11vw);
+      bottom: 11.11vw;
+      border-radius: 2.08vw;
+    }
+    .sub-page .content section {
+      padding: 16.67vw 0 20.83vw;
+    }
+  
+    .sub-tit01 {
+      font-size: 7.78vw;
+    }
+    .about-top__desc {
+      margin-top: 11.11vw;
+    }
+    .sub-desc01 {
+      font-size: 3.89vw;
+    }
+    .sub-desc01 br {
+      display: none;
+    }
+    .sub-desc02 {
+      font-size: 3.61vw;
+    }
+    .about-top .sub-desc02 {
+      margin-top: 2.78vw;
+    }
+    .sub-tit02 {
+      font-size: 6.67vw;
+    }
+    .about-logo__symbol {
+      margin-top: 11.11vw;
+      gap: 1.39vw;
+    }
+    .about-logo__symbol li p {
+      margin-top: 2.78vw;
+      font-size: 3.33vw;
+    }
+    .about-logo__symbol li {
+      width: 17.71vw;
+    }
+    .about-logo__symbol li:nth-child(even) {
+      width: 4.17vw;
+    }
+    .about-logo__desc {
+      margin-top: 16.67vw;
+    }
+    .sub-tit03 {
+      font-size: 5.56vw;
+    }
+    .about-logo__desc .sub-desc02 {
+      margin-top: 4.17vw;
+    }
+    .about-logo__download figure,
+    .about-logo__bg img {
+      width: 70vw;
+    }
+    .about-investors__amounts {
+      margin-top: 16.67vw;
+    }
+    .about-investors__amounts > div {
+      gap: 4.17vw;
+      padding-bottom: 1.39vw;
+    }
+    .about-investors__amounts > div strong {
+      font-size: 8.61vw;
+    }
+    .about-investors__amounts ul {
+      grid-gap: 2.78vw 1.39vw;
+      margin-top: 8.33vw;
+    }
+    .about-investors__amounts ul li > * {
+      border-radius: 2.08vw;
+    }
+    .about-investors__amounts ul li span {
+      padding: 2.78vw;
+      font-size: 3.61vw;
+      height: 10.42vw;
+      width: 21.11vw;
+    }
+    .about-investors__amounts ul li p {
+      height: 20.83vw;
+      width: calc(100% - 1.39vw);
+      margin-top: -2.78vw;
+      font-size: 5.28vw;
+    }
+    .about-leadership ul {
+      margin-top: 11.11vw;
+      grid-gap: 5.56vw 8.33vw;
+    }
+    .about-leadership button {
+      gap: 2.78vw;
+      margin: 11.11vw auto 0;
+      color: #fff;
+      font-size: 3.61vw;
+    }
+    .about-leadership figcaption {
+      margin-top: 2.78vw;
+      gap: 1.67vw;
+    }
+    .about-leadership figcaption p {
+      font-size: 4.44vw;
+    }
+    .sub-desc03 {
+      font-size: 3.33vw;
+    }
+    .about-history .inner {
+      margin: 0;
+    }
+    .about-history__slide {
+      padding-left: 3.90625%;
+      padding-top: 13.89vw;
+      margin-top: 5.56vw;
+    }
+    .sub-page .slick-arrow {
+      right: 3.90625%;
+    }
+    .sub-page .slick-arrow,
+    .sub-page .technology-algorithm__nav button {
+      width: 8.33vw;
+      height: 8.33vw;
+    }
+  
+    .sub-page .slick-arrow::after,
+    .sub-page .technology-algorithm__nav button::after {
+      width: 1.67vw;
+      height: 3.33vw;
+    }
+  
+    .sub-page .slick-arrow.slick-prev,
+    .sub-page .slick-arrow.prev,
+    .sub-page .technology-algorithm__nav button.slick-prev,
+    .sub-page .technology-algorithm__nav button.prev {
+      right: calc(3.90625% + 10.42vw);
+    }
+    .about-history__slide .item .dot {
+      margin-bottom: 2.78vw;
+      width: 6.67vw;
+      height: 6.67vw;
+    }
+    .about-history__slide .item ul {
+      margin-top: 5.56vw;
+      gap: 2.78vw;
+    }
+    .about-history__slide .item {
+      padding-right: 3.90625vw;
+    }
+    .about-history__slide::after {
+      top: 17vw;
+    }
+    .about-history__slide .item b {
+      font-size: 4.72vw;
+    }
+    .about-history__slide .item ul li {
+      gap: 2.78vw;
+    }
+    .about-history__slide .item ul li em {
+      font-size: 3.61vw;
+    }
+    .about-history__slide .item ul li p {
+      font-size: 3.61vw;
+    }
+    .about-global__list {
+      gap: 4.17vw;
+      margin-top: 11.11vw;
+    }
+    .about-global__list > li button {
+      height: 12.5vw;
+      padding: 0 5.56vw;
+      font-size: 5.28vw;
+      background-position: center right 5.56vw;
+      background-size: 6.67vw;
+    }
+    .about-global__list > li ul {
+      margin-top: 1.39vw;
+      padding: 1.39vw 5.56vw;
+    }
+    .about-global__list > li ul li a {
+      padding: 4.17vw 0;
+    }
+    .about-global__list > li ul li a svg {
+      width: 6.67vw;
+      height: 6.67vw;
+    }
+    .about-global__list > li ul li a p:first-child {
+      margin-bottom: 1.39vw;
+    }
+    .technology-svnet__tit h3 span {
+      font-size: 27.78vw;
+    }
+    .cutting-desc {
+      background-image: url(/image/sub/technology_circle_img_m.jpg);
+      align-items: flex-end;
+      padding-bottom: 16.67vw;
+    }
+    .cutting-desc .inner h3 {
+      font-size: 6.67vw;
+      line-height: 1.4;
+    }
+    .cutting-desc .inner {
+      gap: 8.33vw;
+    }
+    .cutting-desc .inner p {
+      width: 100%;
+      align-self: auto;
+    }
+    .technology-tit h3 {
+      font-size: 5.83vw;
+    }
+    .technology-tit .sub-desc02 {
+      margin-top: 5.56vw;
+    }
+    .technology-algorithm__top {
+      flex-direction: column;
+      margin-bottom: 8.33vw;
+    }
+    .technology-algorithm__nav {
+      gap: 2.08vw;
+      margin-top: 5.56vw;
+    }
+    .technology-algorithm__slide .item {
+      margin: 0 2.08vw;
+      width: 80.56vw;
+    }
+    .technology-algorithm__slide .item figure {
+      height: 45.28vw;
+      margin-bottom: 4.17vw;
+    }
+    .technology-algorithm__slide .item .sub-desc01 {
+      line-height: 1;
+    }
+    .technology-tit__anim {
+      gap: 1.67vw;
+      margin-bottom: 4.17vw;
+      width: 10.83vw;
+    }
+    .technology-tit__anim span {
+      width: 2.5vw;
+      height: 2.5vw;
+    }
+    .technology-efficiency__desc dl {
+      border-radius: 2.08vw;
+      padding: 2.78vw 4.17vw;
+      gap: 4.17vw;
+      font-size: 3.33vw;
+    }
+    .technology-efficiency__desc dl dt {
+      border-radius: 1.39vw;
+      height: 13.89vw;
+      width: 30.56vw;
+      font-size: 3.89vw;
+    }
+    .technology-solution__contents {
+      flex-direction: column;
+      gap: 6.94vw;
+    }
+    .technology-solution__contents figure:first-child {
+      padding: 0;
+    }
+    .technology-solution__contents figure figcaption {
+      margin-bottom: 4.17vw;
+      font-size: 4.44vw;
+    }
+    .technology-soc__list ul {
+      margin-top: 4.17vw;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 1.39vw;
+    }
+    .technology-soc__list li img {
+      max-height: 45%;
+    }
+    .technology-tit {
+      margin-bottom: 11.11vw;
+    }
+    .technology-overview__scroll ul li {
+      padding-bottom: 20.83vw;
+    }
+    .technology-overview__scroll ul li .technology-overview__tit {
+      background-position: right 5.56vw center;
+      font-size: 5.28vw;
+      border-radius: 2.08vw;
+      padding: 0 5.56vw;
+      margin-bottom: 5.56vw;
+      height: 12.5vw;
+    }
+    .sub-top__desc p {
+      font-size: 4.17vw;
+    }
+    .sub-top .common-btn {
+      margin-top: 11.11vw;
+    }
+    .sub-page .box-carousel {
+      padding-top: 4.17vw;
+    }
+    .product {
+      padding-top: 11.11vw;
+    }
+    .product-sec section h3 {
+      font-size: 5.83vw;
+      margin-bottom: 5.56vw;
+    }
+    .product-sec section article {
+      gap: 5.56vw;
+    }
+    .product-tit {
+      font-size: 4.17vw;
+      margin-bottom: 2.78vw;
+    }
+    .product-level {
+      gap: 1.39vw;
+    }
+    .product-level li:not(.sub-desc02) {
+      width: 20.83vw;
+      height: 8.33vw;
+      font-size: 3.89vw;
+    }
+    .product-features li b {
+      font-size: 4.17vw;
+    }
+    .product-features li p {
+      font-size: 3.33vw;
+    }
+    .product .technology-algorithm__slide {
+      gap: 8.33vw;
+      margin: 11.11vw auto 0;
+      flex-direction: column;
+    }
+    .product .technology-algorithm__slide .item {
+      width: 100%;
+      max-width: none;
+    }
+    .sub-page .product section {
+      padding: 16.67vw 0 16.67vw;
+    }
+    .product-sec section:first-child {
+      padding-top: 0 !important;
+    }
+    .product-link a {
+      height: 41.67vw;
+      gap: 3.47vw;
+    }
+    .product-link a h2 {
+      font-size: 5.83vw;
+    }
+    .product-link a .view-more {
+      font-size: 3.61vw;
+      gap: 1.39vw;
+    }
+    .product-link a .view-more img {
+      width: 3.61vw;
+    }
+    .product-link a.surround,
+    .product-link a.surround .product-link__bg {
+      background-image: url('/image/sub/product_link_surround_m.jpg');
+    }
+    .product-link a.multi,
+    .product-link a.multi .product-link__bg {
+      background-image: url('/image/sub/product_link_multi_m.jpg');
+    }
+    .product-link a.front,
+    .product-link a.front .product-link__bg {
+      background-image: url('/image/sub/product_link_front_m.jpg');
+    }
+    .sub-tit__area p {
+      margin-top: 5.56vw;
+    }
+    .contact-consent {
+      margin-top: 16.67vw;
+    }
+    .contact-consent ul {
+      gap: 8.33vw;
+      padding: 8.33vw 0 0;
+    }
+    .contact-consent__box {
+      padding: 2.78vw 1.39vw 2.78vw 4.17vw;
+      font-size: 3.33vw;
+    }
+    .contact-consent__scroll {
+      height: 25vw;
+      padding-right: 1.67vw;
+    }
+    .contact-consent__scroll::-webkit-scrollbar {
+      width: 1.11vw;
+    }
+    .contact-consent__scroll::-webkit-scrollbar-thumb {
+      border-radius: 1.11vw;
+      width: 1.11vw;
+    }
+  
+    .contact-consent ul li {
+      gap: 3.47vw;
+    }
+    .contact-consent__check label {
+      gap: 1.39vw;
+    }
+    .contact-consent__check label svg {
+      width: 3.65vw;
+      height: 3.65vw;
+    }
+    .contact-consent__check {
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 2.78vw;
+    }
+    .contact-form {
+      margin-top: 16.67vw;
+    }
+    .contact-form .noti {
+      font-size: 3.33vw;
+    }
+    .contact-form ul {
+      border-top: 1px solid #e8e8e8;
+      padding: 8.33vw 0 0;
+      gap: 4.17vw;
+    }
+    .contact-form ul li {
+      flex-direction: column;
+    }
+    .contact-form ul li p {
+      width: auto;
+      line-height: 1;
+      margin-bottom: 2.78vw;
+    }
+    .contact-form ul li input[type='text'] {
+      height: 10.56vw;
+      padding: 2.78vw;
+      font-size: 3.33vw;
+    }
+    .contact-form ul li textarea {
+      padding: 2.78vw;
+      font-size: 3.33vw;
+      height: 41.67vw;
+      flex: none;
+    }
+    .sub-btn {
+      margin-top: 11.11vw;
+    }
+    .sub-btn button,
+    .sub-btn a {
+      padding: 0 4.17vw;
+      height: 11.11vw;
+      width: 30.56vw;
+      font-size: 3.61vw;
+      background-color: var(--purple);
+      color: #fff;
+    }
+    .sub-btn button svg,
+    .sub-btn a svg {
+      width: 3.61vw;
+      height: 3.61vw;
+      stroke: #fff;
+    }
+    .contact-info {
+      margin-top: 20.83vw;
+      background-size: 50%;
+      background-position: bottom right;
+    }
+    .contact-info .inner b {
+      margin-bottom: 13.19vw;
+      font-size: 5.56vw;
+    }
+    .contact-info .inner b br {
+      display: none;
+    }
+    .contact-info .inner {
+      padding: 11.11vw 0 20.83vw;
+    }
+    .contact-info .inner > ul {
+      gap: 5.56vw;
+    }
+    .contact-info .inner > ul > li ul li {
+      gap: 1.39vw;
+    }
+    .contact-info .inner > ul > li .p01 {
+      display: flex;
+      align-items: center;
+      gap: 1.39vw;
+      font-size: 3.61vw;
+      margin-bottom: 2.78vw;
+    }
+    .contact-info .inner > ul > li .p02 {
+      word-break: break-all;
+    }
+    .contact-info .inner > ul > li .p01 svg {
+      width: 3.61vw;
+      height: 3.61vw;
+    }
+    .contact-info .inner > ul > li .p01 path {
+      fill: var(--purple);
+    }
+    .contact-info .inner > ul > li ul li div {
+      width: 19.44vw;
+      height: 8.33vw;
+    }
+    .careers-carousel {
+      height: 130.56vw;
+      padding: 27.08vw 0 !important;
+    }
+    .careers-carousel ul {
+      gap: 1.39vw;
+      top: 65.97vw;
+    }
+    .careers-carousel ul:first-child {
+      margin-bottom: 1.39vw;
+      top: 27.08vw;
+    }
+    .careers-carousel ul li {
+      width: 66.67vw;
+      height: 37.5vw;
+      border-radius: 2.08vw;
+    }
+    .careers-looking ul {
+      margin-top: 11.11vw;
+      grid-template-columns: 1fr;
+      grid-gap: 4.17vw;
+    }
+    .careers-looking ul li {
+      border-radius: 2.08vw;
+      padding: 5.56vw 4.17vw;
+    }
+    .careers-looking ul li p {
+      margin-top: 5.56vw;
+    }
+    .careers-looking ul li b {
+      font-size: 5.28vw;
+    }
+    .careers-looking ul li span {
+      font-size: 3.33vw;
+    }
+    .careers-looking {
+      background-image: url(/image/sub/careers_bg_m.png);
+    }
+    .careers-benefits ul {
+      margin-top: 11.11vw;
+      grid-gap: 4.17vw;
+    }
+    .careers-benefits ul li {
+      padding: 20.83vw 0 8.33vw;
+      background-position: top 2.78vw right;
+      background-size: 16.67vw;
+    }
+    .careers-benefits ul li b {
+      font-size: 5vw;
+    }
+    .careers-benefits ul li p {
+      margin-top: 5.56vw;
+      font-size: 3.33vw;
+    }
+    .careers-banner .inner02 {
+      border-radius: 2.08vw;
+      height: 75vw;
+      gap: 8.33vw;
+      background-image: url('/image/sub/careers_banner_m.jpg');
+    }
+    .careers-banner .inner02 p {
+      font-size: 5.83vw;
+    }
+    .careers-banner__btns {
+      gap: 5.56vw;
+    }
+    .career-filters {
+      padding-bottom: 37.333vw;
+    }
+    .career-filters__apply {
+      bottom: 0;
+      height: 22.22vw;
+    }
+    .career-filters__apply P {
+      width: 92.18vw;
+      height: 13.89vw;
+      border-radius: 2vw;
+      font-size: 3.733vw;
+    }
+    .privacy-select {
+      gap: 2vw;
+      font-size: 3.2vw;
+      margin: 6.667vw 0;
+    }
+    .privacy-select select {
+      height: 10.667vw;
+      font-size: 3.2vw;
+      width: 34.667vw;
+      padding: 0 5.333vw;
+      background-position: center right 5.333vw;
+      background-size: 3.2vw;
+    }
+    .privacy_desc {
+      font-size: 3.467vw;
+    }
+    .privacy ul li button {
+      padding: 4.167vw;
+      font-size: 4.167vw;
+    }
+    .privacy ul li .plus {
+      width: 9.028vw;
+      height: 9.028vw;
+      margin-left: 2.778vw;
+    }
+    .privacy_hide {
+      padding: 4.167vw;
+    }
+    .privacy_hide p {
+      font-size: 3.611vw;
+    }
+    .top-btn {
+      max-width: 60px;
+      max-height: 60px;
+      width: 11.111vw;
+      height: 11.111vw;
+      bottom: 8.333vw;
+      font-size: 3.333vw;
+    }
+    .top-btn.fix {
+      top: -16.667vw;
+    }
+  }
+  
+  @media all and (max-width: 640px) {
+  }
+  

@@ -1,0 +1,377 @@
+.modal-item video {
+    width: 92%;
+    height: 123.3vw;
+  }
+  .modal-item button {
+    bottom: 50%;
+    width: 11.11vw;
+    height: 11.11vw;
+    left: 50%;
+    transform: translate(-50%, 35vw);
+  }a
+  .main-contact ul{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .main-contact ul .is-gap {
+    display: none;
+  }
+  .main-contact ul li:last-child {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  .main-contact__tit {
+    margin-bottom: 80px;
+  }
+  .main-contact li a {
+    height: auto;
+  }
+  @media all and (max-width:1024px) {
+    .main-news .inner {
+      margin: 0;
+    }
+    .main-tit__area {
+      margin: 0 3.90625%;
+    }
+    .main-page .main-news__list {
+      display: block;
+    }
+    .main-page .main-news__list .slick-list {
+      padding-left: 3.90625vw;
+    }
+    .main-page .main-news__list .item {
+      width: 40vw;
+      margin: 0 15px;
+    }
+    .main-achievements ul {
+      grid-template-columns: repeat(2, 1fr);
+      border-left: none;
+    }
+    .main-achievements ul li {
+      padding: 30px;
+    }
+    .main-achievements ul li:nth-child(even) {
+      border-right: none;
+    }
+    .main-achievements ul li:nth-child(3), 
+    .main-achievements ul li:nth-child(4) {
+      border-top: 1px solid #e8e8e8;
+    } 
+  }
+  
+  @media all and (max-width:768px) {
+    .main-mv__slide .item b {
+      font-size: 8.89vw;
+      margin-bottom: 5.56vw;
+    } 
+    .main-mv__slide .item p span {
+      font-size: 3.89vw;
+    }
+    .main-mv__slide .item .inner {
+      margin: 0 calc(3.90625% + 5.56vw);
+      padding-bottom: 19.44vw;
+    }
+    .main-mv__slide .slick-nav {
+      left: calc(3.90625% + 5.56vw); 
+    }
+    .main-mv__video {
+      bottom: 5.56vw;
+      right: 5.56vw;
+      width: 50vw;
+      height: 28.19vw;
+      border-radius: 2.08vw
+    }
+    .main-mv__video .close {
+      width: 11.11vw;
+      height: 11.11vw;
+      right: 5.56vw;
+      top: 5.56vw;
+      transform: none;
+    }
+    .main-mv__slide .slick-nav{
+      padding-top: 19.44vw;
+    }
+    .main-mv__slide .slick-nav__dots{
+      gap: 1.67vw;
+    }
+    .main-mv__slide .circle__fill circle {
+      width: 3.33vw !important;
+      height: 3.33vw !important;
+    }
+    .main-mv__slide .slick-nav {
+      transform: scale(0.8);
+    }
+    @-webkit-keyframes mainBg {
+      to {
+        width: 92.1875%;
+        height: calc(100vh - 27.78vw);
+        border-radius: 2.08vw;
+        bottom: 13.89vw;
+      }
+    }
+    @keyframes mainBg {
+      to {
+        width: 92.1875%;
+        height: calc(100vh - 27.78vw);
+        border-radius: 2.08vw;
+        bottom: 13.89vw;
+      }
+    }
+    .main-about__typo > div figure {
+      border-radius: 8.33vw;
+      width: 64.58vw;
+      height: 16.67vw;
+    }
+    .main-about__typo > div p {
+      font-size: 8.33vw;
+    }
+    .main-about__typo > div:last-child {
+      margin-top: 2.78vw;
+    }
+    .main-about__typo > div:first-child {
+      gap: 1.39vw;
+    }
+    .main-about__typo > div:first-child figure {
+      width: 40.28vw;
+      height: 16.67vw;
+      border-radius: 8.33vw 0 0 8.33vw;
+    }
+    .main-about__typo > div:first-child figure + img {
+      width: 8.33vw;
+      height: 16.67vw;
+    }
+    .main-about {
+      padding: calc(20.83vw - var(--headerHeight)) 0 20.83vw;
+    }
+    .desc-style01 {
+      font-size: 3.61vw;
+    }
+    .main-about .desc-style01 {
+      margin-top: 9.72vw;
+    }
+    .main-about .common-btn {
+      margin-top: 11.11vw;
+      justify-content: flex-start
+    }
+    .main-technology {
+      background-image: url(/image/main/main_technology_bg_m.png);
+      background-color: #F9F9FF;
+      padding-top: 20.83vw;
+    }
+    .main-technology .desc-style01 {
+      margin-top: 5.56vw;
+    }
+    .main-technology .common-btn {
+      margin-top: 11.11vw;
+    }
+    .main-tit {
+      font-size: 6.67vw;
+    }
+    .main-product {
+      padding: 100vh 0 20.83vw;
+    }
+    .main-product ul {
+      grid-template-columns: 1fr;
+      grid-gap: 16.67vw;
+    }
+    .main-product h2 {
+      font-size: 13.89vw;
+    }
+    .main-product ul li:nth-child(odd):not(:first-child),
+    .main-product ul li:nth-child(2n){
+      margin-top: 0;
+    }
+    .main-product__desc {
+      margin-top: 5.56vw;
+    }
+    .main-product__desc b{
+      font-size: 5.83vw;
+    }
+    .main-product__desc p{
+      font-size: 3.33vw;
+      margin-top: 2.78vw;
+    }
+    .main-product__desc div{
+      margin-top: 8.33vw;
+      font-size: 3.61vw;
+      gap: 1.39vw;
+    }
+    .main-product__desc div img {
+      width: 3.61vw;
+    }
+    .main-product ul li:hover .main-product__img figure {
+      width: calc(100% - 5.56vw);
+      height: calc(100% - 5.56vw);
+    }
+    .main-product__img span {
+      width: 16px;
+      height: 16px;
+      border: 3px solid var(--pink);
+    }
+    .main-page .main-news__list {
+      margin-top: 11.11vw;
+    }
+    .main-page .main-news__list .item {
+      width: 80.56vw;
+      margin: 0 2.08vw;
+    }
+    .main-news {
+      padding: 25vw 0 16.67vw;
+      position: relative;
+      z-index: 1;
+      /* min-height: 100vh; */
+    }
+    .main-news__list > li figure, .main-news__list .item figure {
+      margin-bottom: 2.08vw;
+      border-radius: 2.08vw;
+    }
+    .main-news__list > li > a span, .main-news__list .item > a span {
+      font-size: 3.33vw;
+    }
+    .main-news__list > li > a, .main-news__list .item > a {
+      gap: 2.78vw;
+      margin-bottom: 5.56vw;
+    } 
+    .main-news__list > li > a b, .main-news__list .item > a b{
+      font-size: 3.89vw;
+    }
+    .main-news__list .item ul, .main-news__list > li ul {
+      height: auto;
+    }
+    .main-news__list > li ul li, .main-news__list .item ul li {
+      height: calc(5.5vw + 2px);
+    }
+    .main-news__list > li ul li a, .main-news__list .item ul li a {
+      padding: 0 1.39vw;
+      border-radius: 5px;
+      font-size: 3.33vw;
+      line-height: 5.5vw;
+    }
+    .main-news__date {
+      margin-top: 2.78vw;
+      font-size: 3.61vw;
+    }
+    .main-achievements ul {
+      margin-top: 11.11vw;
+    }
+    .main-achievements ul li {
+      padding: 4.17vw;
+    } 
+    .main-achievements ul li div {
+      gap: 2.78vw;
+    }
+    .main-achievements ul li div svg {
+      width: 3.89vw;
+    }
+    .main-achievements ul li div span{
+      font-size: 9.72vw;
+    }
+    .main-achievements ul li p {
+      margin-top: 4.17vw;
+    }
+    .main-achievements ul li p br {
+      display: none;
+    }
+    .main-achievements ul li img {
+      margin-bottom: 6.39vw;
+      width: 13.89vw;
+      height: 13.89vw;
+    }
+    .main-achievements {
+      padding: 16.67vw 0 20.83vw;
+    }
+    .main-with__lists ul .slick-slide div li {
+      min-height: 13.89vw;
+    }
+    .main-tab {
+      margin-top: 5.56vw;
+    }
+    .main-tab ul {
+      padding: .69vw;
+      gap: 1.39vw;
+    }
+    .main-tab__bg,
+    .main-tab button, .main-tab a {
+      height: 11.11vw;
+      width: 27.78vw;
+      font-size: 3.89vw;
+    }
+    .main-with {
+      padding: 16.67vw 0 20.83vw; 
+    }
+    .main-with__lists {
+      margin-top: 11.11vw;
+    }
+    .main-with__lists .slick-dots {
+      gap: 3.47vw;
+      margin-top: 8.33vw;
+    }
+    .main-with__lists .slick-dots li {
+      width: 2.22vw;
+      height: 2.22vw;
+    }
+    .main-with__info {
+      flex-direction: column;
+      padding-top: 11.11vw;
+      margin-top: 16.67vw;
+      gap: 2.78vw;
+    }
+    .main-with__info > li {
+      padding: 8.33vw 5.56vw 8.33vw 8.33vw;
+    }
+    .main-with__info > li b{
+      font-size: 5.56vw;
+    }
+    .main-with__info > li ul {
+      margin-top: 5.56vw;
+      height: 37.45vw;
+    }
+    .main-with__info > li ul li {
+      font-size: 3.61vw;
+    }
+    .main-with .box-carousel {
+      height: 20.83vw;
+    }
+    .carousel-item {
+      font-size: 20.83vw;
+    }
+    .main-contact{
+      padding: 11.11vw 0;
+    }
+    .main-contact .inner02 {
+      padding: 16.67vw 0 20.83vw;
+      border-radius: 2.08vw;
+      background-image: url("/image/main/main_contact_bg_m.jpg");
+    }
+    
+    .main-contact ul {
+      padding: 0 8.33vw;
+      grid-gap: 1.39vw;
+    }
+    .main-contact__tit p {
+      font-size: 3.61vw;
+      font-weight: 400;
+      line-height: 1.6;
+      margin-top: 4.17vw;
+    }
+    .main-contact__tit {
+      margin-bottom: 11.11vw;
+    } 
+    .main-contact li a {
+      flex-direction: row;
+      align-items: center;
+      border-radius: 2.08vw;
+      padding: 0 4.17vw;
+      height: 16.67vw;
+    }
+    .main-contact li a b{
+      font-size: 5vw;
+      order: 1;
+    }
+    .main-contact li a figure {
+      width: 6.39vw;
+      order: 2;
+      align-self: auto;
+    }
+  }
+  
+  @media all and (max-width:640px) {}
